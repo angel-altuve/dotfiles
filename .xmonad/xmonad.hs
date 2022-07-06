@@ -211,11 +211,8 @@ gsGames =
   , ("Battle For Wesnoth", "wesnoth")
   , ("OpenArena", "openarena")
   , ("Sauerbraten", "sauerbraten")
-  , ("Steam", "steam")
   , ("Unvanquished", "unvanquished")
-  , ("Xonotic", "xonotic-glx")
-  , ("CS","/home/angel/.local/cs/cs")
-  , ("Half-Life","/home/angel/.local/cs/hl")
+  , ("Xonotic", "xonotic-glx") 
   ]
 
 gsInternet =
@@ -225,7 +222,7 @@ gsInternet =
 
 gsMultimedia =
   [    ("VLC", "vlc")
-       -- ,("MPV,"mpv")
+       ,("MPV","mpv")
   ]
 
 gsOffice =
