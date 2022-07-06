@@ -1,8 +1,3 @@
-#+TITLE: DT's Doom Emacs Config
-#+AUTHOR: Derek Taylor (DT)
-#+DESCRIPTION: DT's personal Doom Emacs config.
-#+STARTUP: showeverything
-
 * TABLE OF CONTENTS :toc:
 - [[#about-this-config][ABOUT THIS CONFIG]]
 - [[#beacon][BEACON]]
