@@ -10,7 +10,11 @@ About setup
 
 License
 
-Preview (Xmonad)screenshots/xmonad.png
+### Preview
+
+![https://github.com/angel-altuve/dotfiles/blob/main/screenshots/xmonad.png?raw=true](https://github.com/angel-altuve/dotfiles/blob/main/screenshots/xmonad.png?raw=true)
+
+![https://github.com/angel-altuve/dotfiles/blob/main/screenshots/utils.png?raw=true](https://github.com/angel-altuve/dotfiles/blob/main/screenshots/utils.png?raw=true)
 
 About setup
 
@@ -51,11 +55,15 @@ Fonts
 
 `$ sudo pacman -S ttf-hack ttf-jetbrains-mono ttf-joypixels ttf-ms-fonts ttf-ubuntu-font-family otf-font-awesomeotf adobe-source-code-pro-fonts adobe-source-sans-fonts`
 
-`git clone https://github.com/AtifChy/xmonad.git`
+`git clone https://github.com/angel-altuve/dotfiles.git`
 
-cp -r
+`cp -r dotfiles/.xmonad ~/` 
 
-cp -r
+`cp -r dotfiles/.config/xmonbar ~/xmobar`
+
+`cp -r dotfiles/.config/alacritty ~/alacritty`
+
+`cp -r dotfiles/.config/alacritty ~/alacritty`
 
 - Recompile xmonad
 
@@ -66,5 +74,3 @@ cp -r
 License
 
 **GNU General Public License**
-
-[https://github.com/angel-altuve/dotfiles/blob/main/screenshots/xmonad.png](https://github.com/angel-altuve/dotfiles/blob/main/screenshots/xmonad.png)
