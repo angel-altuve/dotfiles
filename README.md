@@ -10,9 +10,7 @@ About setup
 
 License
 
-Preview
-
-screenshots/xmonad.png
+Preview (Xmonad)screenshots/xmonad.png
 
 About setup
 
