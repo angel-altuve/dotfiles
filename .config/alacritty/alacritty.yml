@@ -1,0 +1,103 @@
+## Configuration for Alacritty, the GPU enhanced terminal emulator.
+## It's a very basic and simple config file, for full configuration...
+## See, /usr/share/doc/alacritty/example/alacritty.yml
+
+## Import files (colorschemes, Fonts, Etc)
+
+
+#Afterglow.yml		  Material_theme_mod.yaml
+#Argonaut.yml		  Material_theme.yaml
+#Ayu_dark.yml		  Monokai.yml
+#Base16_default_dark.yaml Navy.yml
+#Blood_moon.yaml	  Nord.yaml
+#Breeze.yaml		  Oceanic_next.yaml
+#Bright.yml		  Omni.yml
+#Campbell.yaml		  One_dark.yaml
+#Challenger_deep.yaml	  Palenight.yml
+#Cobalt2.yaml		  Papercolor_light.yaml
+#Cyber_punk_neon.yaml	  Pastel.yml
+#Dark_pastels.yaml	  Pencil_dark.yaml
+#Dawn.yml		  Pencil_light.yaml
+#Doom_one.yml		  Remedy_dark.yaml
+#Dracula.yaml		  Snazzy.yaml
+#Erosion.yml		  Solarized_dark.yaml
+#Falcon.yaml		  Solarized_light.yaml
+#Flat_remix.yml		  Sweetlove.yml
+#Gotham.yaml		  Taerminal.yaml
+#Gruvbox_dark.yaml	  Tango_dark.yaml
+#Gruvbox_light.yaml	  Tender.yaml
+#Gruvbox_material.yml	  Terminal_app.yaml
+#High_contrast.yaml	  Thelovelace.yaml
+#Horizon_dark.yaml	  Tokyo_night_storm.yaml
+#Hund.yml		  Tokyo_night.yaml
+#Hybrid.yml		  Tomorrow_night_bright.yaml
+#Hyper.yaml		  Tomorrow_night.yaml
+#Invisibone.yml		  Vacuous.yml
+#Iterm.yml		  Visibone.yml
+#Jmbi.yml		  Wombat.yaml
+#Kasugano.yml		  Xterm.yaml
+#Konsole_linux.yaml	  Yousai.yml
+#Low_contrast.yaml
+
+
+import:
+  - ~/.config/alacritty/colorschemes/Palenight.yaml
+  - ~/.config/alacritty/fonts.yml
+
+## Set environment variables
+env:
+  TERM: xterm-256color
+  WINIT_X11_SCALE_FACTOR: '1.0'
+  
+## Terminal window settings
+window:
+  dimensions:
+    columns: 82
+    lines: 25
+
+  padding:
+    x: 12
+    y: 12
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+## scrolling
+  history: 10000
+  multiplier: 3
+
+## Background opacity
+# background_opacity: 1.0
+window.opacity: 1.0
+
+
+## Cursor
+cursor:
+  style:
+    shape: Block
+    blinking: On
+
+  unfocused_hollow: false
+
+## Live config reload
+live_config_reload: true
+
+key_bindings:
+    # (Windows, Linux, and BSD only)
+  - { key: V,         mods: Control|Shift, action: Paste                       }
+  - { key: C,         mods: Control|Shift, action: Copy                        }
+  - { key: Insert,    mods: Shift,         action: PasteSelection              }
+  - { key: Key0,      mods: Control,       action: ResetFontSize               }
+  - { key: Equals,    mods: Control,       action: IncreaseFontSize            }
+  - { key: Plus,      mods: Control,       action: IncreaseFontSize            }
+  - { key: Minus,     mods: Control,       action: DecreaseFontSize            }
+  - { key: F11,       mods: None,          action: ToggleFullscreen            }
+  - { key: Paste,     mods: None,          action: Paste                       }
+  - { key: Copy,      mods: None,          action: Copy                        }
+  - { key: L,         mods: Control,       action: ClearLogNotice              }
+  - { key: L,         mods: Control,       chars: "\x0c"                       }
+  - { key: PageUp,    mods: None,          action: ScrollPageUp,   mode: ~Alt  }
+  - { key: PageDown,  mods: None,          action: ScrollPageDown, mode: ~Alt  }
+  - { key: Home,      mods: Shift,         action: ScrollToTop,    mode: ~Alt  }
+  - { key: End,       mods: Shift,         action: ScrollToBottom, mode: ~Alt  }

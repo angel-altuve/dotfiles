@@ -1,0 +1,9 @@
+" GENERAL
+
+set selection-clipboard clipboard
+
+" APPEARANCE
+
+set font "Fira Code Nerd Font 11"
+
+include catppuccin
