@@ -19,26 +19,25 @@ About setup
 - Font:
     - Monospace: Source Code Pro
     - Icon Fonts:
-        - [F](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono/Ligatures)ontawesome
+        - [Fontawesome](https://github.com/FortAwesome/Font-Awesome)
 - Colorscheme:
-- Terminal: Alacritty
-- Shell: fish
-    - Plugin Manager: fisher
+- Terminal: [Alacritty](https://github.com/alacritty/alacritty)
+- Shell: [fish](https://fishshell.com/)
+    - Plugin Manager: [fisher](https://github.com/jorgebucaran/fisher)
     - Prompt: [starship](https://github.com/AtifChy/dotfiles/blob/main/.config/starship.toml)
 - Editor: [Neovim](https://github.com/AtifChy/dotfiles/tree/main/.config/nvim)
 - Compositor: [Picom](https://github.com/AtifChy/dotfiles/blob/main/.config/picom/picom.conf)
 - Image Preview: [Sxiv](https://github.com/muennich/sxiv)
 - Wallpaper:
     - Click Me
-- Wallpaper Setter: feh
+- Wallpaper Setter: [feh](https://feh.finalrewind.org/)
 - Screenshot: main
     - Script: [Here](https://github.com/AtifChy/xmonad/blob/main/scripts/shotclip)
-- Music Player: moc
+- Music Player: [moc](https://github.com/jonsafari/mocp)
 - Video Player: [mpv](https://github.com/AtifChy/dotfiles/blob/main/.config/mpv/mpv.conf)
 - Notification Daemon: [Dunst](https://github.com/AtifChy/dotfiles/blob/main/.config/dunst/dunstrc)
-- Tray: Trayer
-- Lockscreen: sddm multicolor-sddm-theme
-- [DOTFILES](https://github.com/AtifChy/dotfiles)
+- Tray: [Trayer](https://github.com/sargon/trayer-srg)
+- Lockscreen: [sddm](https://github.com/sddm/sddm)
 
 ### **Installation**
 
