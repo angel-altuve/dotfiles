@@ -25,4 +25,4 @@ cp dotfiles/.local/bin/pacupdate ~/.local/bin/
 cp dotfiles/.local/bin/dm-run ~/.local/bin/
 ```
 
-[Untitled](https://www.notion.so/a6811b23caff42338ad42147bbd7aa13)
+
